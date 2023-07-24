@@ -12,8 +12,14 @@ body {
 
 .container {
   display: flex;
-  max-width: 800px;
+  max-width: 80rem;
   margin: 20px auto;
+}
+
+.horizontal-line {
+  border: none; 
+  border-top: 1px solid #333; 
+  width: 100%; 
 }
 
 .left-section {
@@ -27,6 +33,12 @@ body {
 }
 .profile {
   text-align: center;
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile img {
